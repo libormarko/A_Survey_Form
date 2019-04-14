@@ -1,0 +1,85 @@
+html,body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    min-width: 850px;
+    background-color: #84AEBF;
+    color: #D9B2A9;
+    text-align: center;
+}
+
+#title {
+    font-family: 'Lora', serif;
+    color: #73564F;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+#aroundForm {
+    background-color: #1A1E26;
+    width: 65%;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px 10px 20px 10px; 
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 45%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.inputs {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 51%;
+}
+
+.input-field {
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #D9B2A9;
+    border-radius: 4px;
+
+}
+
+.expatExperience, input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+#submit {
+  background-color: #A66D78;
+  border-radius: 8px;
+  color: #1A1E26;
+  font-size: 1em;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+    height: 30px;
+    width: 180px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 2px solid #D9B2A9;
+    border-radius: 14px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
